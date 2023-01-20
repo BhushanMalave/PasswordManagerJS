@@ -1,0 +1,153 @@
+.mainborder {
+  display: flex;
+  flex-direction: column;
+  height: 115px;
+  width: 363px;
+  border-radius: 14px;
+  background-color: #fafafa;
+  box-shadow: 0 8px 18px 10px rgba(0, 0, 0, 0.02);
+}
+
+.mainborder1 {
+  display: flex;
+  justify-content: space-between;
+  height: 73px;
+  width: 363px;
+  border-radius: 14px;
+  background-color: #ffffff;
+}
+
+.mainborder2 {
+  height: 42px;
+  width: 363px;
+  border-radius: 14px;
+  background-color: #fafafa;
+}
+
+.view1 {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 2rem;
+}
+.view2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: -15px;
+}
+
+.bitmap {
+  height: 50px;
+  width: 50px;
+  align-self: center;
+  margin-left: 1rem;
+}
+
+.copy {
+  height: 19.8px;
+  width: 19.8px;
+}
+
+.copypass {
+  color: #0e85ff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 1px;
+  text-align: right;
+}
+
+.socialtext {
+  color: #0e85ff;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.www {
+  text-align: center;
+  color: #3c4857;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .mainborder {
+    display: flex;
+    flex-direction: column;
+    height: 115px;
+    width: 363px;
+    border-radius: 14px;
+    background-color: #fafafa;
+    box-shadow: 0 8px 18px 10px rgba(0, 0, 0, 0.02);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mainborder1 {
+    display: flex;
+    justify-content: space-between;
+    height: 73px;
+    width: 363px;
+    border-radius: 14px;
+    background-color: #ffffff;
+  }
+
+  .mainborder2 {
+    height: 42px;
+    width: 363px;
+    border-radius: 14px;
+    background-color: #fafafa;
+  }
+
+  .view1 {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 2rem;
+  }
+  .view2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+  }
+
+  .bitmap {
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    margin-left: 1rem;
+  }
+
+  .copy {
+    height: 19.8px;
+    width: 19.8px;
+  }
+
+  .copypass {
+    color: #0e85ff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 1px;
+    text-align: right;
+  }
+
+  .socialtext {
+    color: #0e85ff;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: right;
+  }
+
+  .www {
+    text-align: center;
+    color: #3c4857;
+    font-family: "Open Sans";
+    font-size: 16px;
+  }
+}

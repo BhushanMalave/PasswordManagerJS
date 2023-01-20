@@ -1,0 +1,236 @@
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-width: 2;
+  border-color: red;
+}
+
+.container {
+  display: flex;
+  height: 481px;
+  width: 839px;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #20bbff 0%, #0e85ff 100%);
+  box-shadow: 0 8px 18px 10px rgba(0, 0, 0, 0.02);
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  width: 334px;
+  border-right: 0.2px solid rgba(245, 247, 251, 0.2);
+}
+
+.tabBar0 {
+  display: none;
+}
+
+.tabBar1 {
+  display: none;
+}
+.tabBar2 {
+  display: none;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  width: 504px;
+}
+
+.inputcontainer {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.logodiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 204px;
+  width: 176px;
+  margin-top: 94px;
+}
+
+.text1 {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 27px;
+  padding: 0% 10%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.text2 {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.67px;
+  line-height: 27px;
+  margin-top: 73px;
+  margin-left: 10%;
+}
+
+.buttontext {
+  color: #0e85ff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  margin-top: 13px;
+}
+
+.inputField1 {
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  height: 54px;
+  width: 100%;
+  border: 0.55px solid rgba(208, 208, 208, 0.5);
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  color: #787e8c;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.inputField2 {
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  height: 54px;
+  width: 100%;
+  border: 0.55px solid rgba(208, 208, 208, 0.5);
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  color: #787e8c;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+}
+.logo1 {
+  display: none;
+}
+.button {
+  border: none;
+  outline: none;
+  height: 44px;
+  width: 130px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 800px) {
+  .signin-container {
+    display: flex;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 640px;
+    width: 360px;
+    background: linear-gradient(180deg, #20bbff 0%, #0e85ff 100%);
+  }
+  .container1 {
+    display: block;
+    border-right: none;
+  }
+  .container2 {
+    display: block;
+  }
+
+  .logodiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    display: none;
+  }
+  .logo1 {
+    display: flex;
+    background-color: none;
+    height: 68px;
+    width: 179px;
+    margin-top: 39px;
+  }
+  .text1 {
+    display: none;
+  }
+  .text2 {
+    display: none;
+  }
+
+  .tabBar {
+    display: flex;
+    justify-content: space-around;
+    height: 49px;
+    margin-top: 10px;
+  }
+  .tabBar1 {
+    text-decoration: none;
+  }
+
+  .tabBartext1 {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+
+  .tabBar2 {
+    text-decoration: none;
+  }
+  .tabBartext2 {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  .active {
+    border-bottom: 3px solid #ffa222;
+  }
+
+  .text4 {
+    display: none;
+  }
+
+  .text3 {
+    display: block;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .inputField1 {
+    width: 65%;
+  }
+
+  .inputField2 {
+    width: 65%;
+  }
+}
+
+.topbarin {
+  display: flex;
+  flex-direction: row;
+}
